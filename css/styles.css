@@ -189,7 +189,7 @@ img {
 }
 .products-list {
   margin-right: 24px;
-  flex-basis: 264px;
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .products-list:last-child {
@@ -281,7 +281,6 @@ img {
 }
 
 .button-list {
-  padding-top: 96px;
   margin-bottom: 72px;
   border-radius: 4px;
 }
